@@ -154,7 +154,7 @@ interface ngToastrDisplayMethod {
 	(message: string, title: string, overrides: ngToastrOptions): JQuery;
 }
 
-interface Toastr {
+interface ngToastr {
 	/**
 	* Clear toasts
 	*/
@@ -197,5 +197,4 @@ interface Toastr {
 }
 
 declare module "ngtoastr" {
-	export = ngtoastr;
 }
